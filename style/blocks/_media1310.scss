@@ -1,0 +1,23 @@
+
+@media (max-width: 1310px){
+    .community--video > img:nth-child(2) {
+        top: -70px;
+        right: 0px;
+    }
+    
+    .community--video > img:last-child {
+        top: -20px;
+        right: 55px;
+    }
+
+    .slick-next{
+        top: -70px;
+        right: 90px;
+    }
+    .slick-prev{
+        top: -104px;
+        left: 870px;
+        transform: rotate(180deg);
+    
+    }
+}

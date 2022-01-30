@@ -1,0 +1,42 @@
+
+.carousel{
+    position: relative;
+}
+
+.slick-next, .slick-prev{
+
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+
+
+    &::before{
+
+        content: url('../img/next-arrow.svg');
+        opacity: 1;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        
+    }
+    &:hover{
+        opacity: 0.5;
+        background: #FFFFFF;
+    }
+    &:focus{
+        background: #FFFFFF;
+        border: 1px solid #2D74FF;
+    }
+}
+
+.slick-next{
+    top: -70px;
+    right: 60px;
+}
+.slick-prev{
+    top: -104px;
+    left: 900px;
+    transform: rotate(180deg);
+
+}
