@@ -1,49 +1,16 @@
 
-.body{
-    font-family: 'Poppins', sans-serif;
-}
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
-.button{
-    padding: 15px 30px;
-    width: 166px;
-    height: 57px;
-    background: #2D74FF;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-size: 18px;
-    box-sizing: border-box;
 
-    &:hover{
-        border: 2px solid #2D74FF;
-        background: white;
-        color: #171832;;
-        transition: .5s;
-
-    }
-}
-
-.blue-text{
-    font-size: 18px;
-    line-height: 150%;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #2D74FF;
-    opacity: 0.7;
-    margin-bottom: 15px;
-}
-
+@import './blocks/base.scss';
+@import './blocks/pre-header.scss';
 @import './blocks/header.scss';
-@import './blocks/digtal-business.scss';
-@import './blocks/community.scss';
-@import './blocks/how-works.scss';
-@import './blocks/comments.scss';
-@import './blocks/carousel.scss';
-@import './blocks/form.scss';
+@import './blocks/tags-field.scss';
+@import './blocks/blog.scss';
+@import './blocks/current-article.scss';
+@import './blocks/search.scss';
+@import './blocks/rubric.scss';
+@import './blocks/posters.scss';
+@import './blocks/price.scss';
 @import './blocks/footer.scss';
-@import './blocks/media1310';
-@import './blocks/media1190'
+@import './blocks/media-blocks/media';
+

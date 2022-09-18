@@ -1,69 +1,73 @@
 
 .footer{
-    background:  #E5E5E5;
-    padding: 100px 0 150px;
 
-    &-flex{
+    padding: 80px 0;
+
+    & .logo{
+        margin-bottom: 60px;
+    }
+
+    &__flex{
         display: flex;
         justify-content: space-between;
     }
 
-    &-info{
-        max-width: 300px;
+    // &__catalog{
 
-        & > img{
-            margin-bottom: 30px;
+    // }
+
+    &__title{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #323642;
+        margin-bottom: 20px;    
+    }
+
+    &__catalog-double > div:first-child{
+        margin-bottom: 60px;
+    }
+
+    &__list{
+
+        &-item:not(:last-child){
+            margin-bottom: 25px;
         }
 
-        & > p{
-            font-size: 18px;
-            line-height: 150%;
-            color: #171832;
-            opacity: 0.7;
+        &-link{
+            font-size: 14px;
+            line-height: 22px;
+            color: #889099;
         }
     }
 
-    &-list{
-        margin-top: 30px;
+    &-about{
+        max-width: 600px;
 
-        & > li:first-child{
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 150%;
-            color: #171832;
-            margin-bottom: 30px;
+        &__main-text{
+            font-size: 14px;
+            line-height: 22px;
+            color: #889099; 
+            margin-bottom: 25px;
         }
 
-        & > li:not(:first-child){
-            font-weight: 500;
-            line-height: 150%;
-            color: #171832;
-            opacity: 0.7;
-            margin-bottom: 20px;
+        &__text{
+            font-size: 12px;
+            line-height: 16px;
+            color: #889099;
+            margin-bottom: 25px; 
         }
     }
 
-    &-contact{
-        & > p {
-            line-height: 160%;
-            letter-spacing: 0.06em;
-            color: #171832;
-            opacity: 0.7;
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-    }
-
-    &-icon{
-
-        & > a{
-            text-decoration: none;
+    &-social{
+        &__item{
+            display: inline-block;
 
             &:not(:last-child){
                 margin-right: 30px;
             }
         }
-
     }
-
 }
